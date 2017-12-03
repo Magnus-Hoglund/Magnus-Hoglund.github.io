@@ -1,0 +1,70 @@
+/*
+ * This css file includes styles added in the jekyll port of this theme.
+ * To find the original style.css that ships with Airspace, read airspace.css
+ *
+ */
+
+ .italic {
+   font-style: italic;
+ }
+
+ .bold {
+   font-weight: bold;
+ }
+
+ .center-text {
+   text-align: center;
+ }
+
+.post-area {
+  padding: 40px;
+  width: 100%;
+  min-height: 150px;
+  background-color: white;
+  border-bottom: 1px dotted #ddd;
+}
+
+.post-area a:link, .post-area a:visited {
+  font-size: 30px;
+  color: #333;
+}
+
+.post-area a:hover {
+  color: #0D0017;
+}
+
+#textbox {
+    /*width: 100%;*/
+    display: none;
+    padding: 25px 0;
+    text-align: center;
+    background-color: rgba(255,255,255, 0.3);
+    text-align-last: 10px;
+    text-align: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    -webkit-text-stroke: 0.1px #ffbfbf;
+}
+
+.img-icon {
+    border-radius: 25%;
+}
+
+.img-icon:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+.img-icon2 {
+    border-radius: 100%;
+}
+
+.img-icon2:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+#loader {
+    position: absolute; 
+    width: 100%; 
+    height: 100%; 
+    background: url('../img/load.gif') no-repeat center center;
+}
